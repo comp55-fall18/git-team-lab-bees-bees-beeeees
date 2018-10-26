@@ -1,4 +1,6 @@
 //comment one
+//comment two
+//comment three
 import java.awt.Color;
 
 import acm.graphics.GImage;
