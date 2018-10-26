@@ -5,6 +5,7 @@ import java.awt.Color;
 
 import acm.graphics.GImage;
 import acm.graphics.GLabel;
+import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
 
 public class SimplePicture extends GraphicsProgram {
@@ -29,5 +30,8 @@ public class SimplePicture extends GraphicsProgram {
 		label.setColor(Color.blue);
 
 		add(label);
+		
+		GOval circle= new GOval(40,400);
+		add(circle);
 	}
 }
